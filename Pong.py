@@ -45,7 +45,6 @@ while run:
     if num_hits != 0 and num_hits % 10 == 0:
         ball.xvel += 1
         num_hits += 1
-        #FIXME does not increase y velocity
     
     #figuring out which key is pressed and implementing movement
     keys = pygame.key.get_pressed()
